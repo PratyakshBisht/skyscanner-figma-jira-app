@@ -1,0 +1,121 @@
+.survey-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.survey-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 32px;
+  border: 1px solid #e0e4e8;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.survey-header {
+  margin-bottom: 28px;
+  border-bottom: 1px solid #e0e4e8;
+  padding-bottom: 16px;
+}
+
+.survey-header h2 {
+  font-size: 24px;
+  color: #111236;
+  margin-bottom: 6px;
+}
+
+.survey-header p {
+  color: #68697f;
+  font-size: 15px;
+}
+
+.survey-question-group {
+  margin-bottom: 24px;
+}
+
+.question-label {
+  font-size: 16px;
+  font-weight: 600;
+  color: #111236;
+  margin-bottom: 12px;
+  display: block;
+}
+
+.rating-row {
+  display: flex;
+  gap: 12px;
+}
+
+.rating-btn {
+  width: 44px;
+  height: 44px;
+  border-radius: 8px;
+  border: 1px solid #e0e4e8;
+  background: #ffffff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.rating-btn:hover {
+  border-color: #00a698;
+  color: #00a698;
+}
+
+.rating-btn.active {
+  background: #00a698;
+  color: #ffffff;
+  border-color: #00a698;
+}
+
+.survey-select,
+.survey-textarea {
+  width: 100%;
+  padding: 12px 16px;
+  border: 1px solid #e0e4e8;
+  border-radius: 8px;
+  font-size: 15px;
+  color: #111236;
+  font-family: inherit;
+  transition: border-color 0.2s;
+}
+
+.survey-select:focus,
+.survey-textarea:focus {
+  outline: none;
+  border-color: #0770e3;
+  box-shadow: 0 0 0 3px rgba(7, 112, 227, 0.15);
+}
+
+.survey-textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.submit-survey-btn {
+  width: 100%;
+  padding: 14px;
+  background-color: #00a698;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 12px;
+  transition: background-color 0.2s;
+}
+
+.submit-survey-btn:hover {
+  background-color: #00867a;
+}
+
+.success-banner {
+  background-color: #e6f6f4;
+  color: #00a698;
+  padding: 16px;
+  border-radius: 8px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 24px;
+}
